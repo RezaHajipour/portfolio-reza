@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 182 100" width="182" height="100">
+	<title>burger menu white</title>
+	<defs>
+		<image  width="137" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAAQBAMAAADQY0FxAAAAAXNSR0IB2cksfwAAABhQTFRFAAAA4ODg////AQEBAgIC+vr66Ojo4eHhG/8kXgAAAAh0Uk5TAFv/AAD1Izaw7RfjAAAASUlEQVR4nGNgYBBSogwYMACBE4WGKCmBTKHYECUFajgF5BgqGAJ0DHVMCaKKKVQwZNQUnKYwUcEUauUAKjgGlBsZkig0pICBAQA3FJChM63lwQAAAABJRU5ErkJggg=="/>
+		<image  width="176" height="16" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAAQBAMAAABEheiDAAAAAXNSR0IB2cksfwAAAA9QTFRFAAAA////////////////j0LeaAAAAAV0Uk5TAD//Dx/eK8uRAAAAT0lEQVR4nGNgYGAQUqIyUGAAA2obCwIgc5loYbACjRwMcjITbQxWoJ3BVE8SMINpYy4wkGlmsBFtzFUZgqmCZhmEdlmaZoUQA/UThgrQUAAdJ7Z9v9UI5QAAAABJRU5ErkJggg=="/>
+		<image  width="137" height="16" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAAQBAMAAADQY0FxAAAAAXNSR0IB2cksfwAAABhQTFRFAAAA4ODg////AQEBAgIC+vr66Ojo4eHhG/8kXgAAAAh0Uk5TAFv/AAD1Izaw7RfjAAAASUlEQVR4nGNgYBBSogwYMACBE4WGKCmBTKHYECUFajgF5BgqGAJ0DHVMCaKKKVQwZNQUnKYwUcEUauUAKjgGlBsZkig0pICBAQA3FJChM63lwQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer 1" href="#img1" x="22" y="77"/>
+	<use id="Layer 2" href="#img2" x="2" y="42"/>
+	<use id="Layer 3" href="#img3" x="22" y="8"/>
+</svg>

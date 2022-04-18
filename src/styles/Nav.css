@@ -1,0 +1,15 @@
+.nav-container {
+    background-color: rgba(244, 117, 117, 0.9);
+}
+.menuIcon {
+    background: transparent;
+    border: "none";
+    position: fixed;
+    -webkit-overflow-scrolling: touch;
+    width: 3rem;
+    height: 1.6rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+.menu {
+}

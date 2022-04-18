@@ -1,0 +1,75 @@
+.home {
+    background-image: radial-gradient(
+        56.25% 56.25% at 50% 50%,
+        #252525 0,
+        #181818 100%
+    );
+    min-height: 100vh;
+}
+.logo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+}
+.logo {
+    width: 20rem;
+    height: 20rem;
+}
+.reza {
+    color: rgb(255 255 255);
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+}
+.Fullstack {
+    color: rgb(255 255 255);
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.about_btn {
+    color: aliceblue;
+    background-color: rgb(40 175 176);
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    line-height: 1.5rem;
+    cursor: pointer;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    border: 0 solid #e5e7eb;
+}
+
+.projects_btn {
+    color: aliceblue;
+    /* background-color: rgb(40 175 176); */
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    line-height: 1.5rem;
+    cursor: pointer;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    border: 0 solid #e5e7eb;
+    border-width: 2px;
+    border-color: rgb(40 175 176);
+    background-color: rgba(40, 176, 176, 0.014);
+}
