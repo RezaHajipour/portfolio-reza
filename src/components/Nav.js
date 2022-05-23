@@ -18,9 +18,9 @@ function Nav() {
 
             {openMenu ? (
                 <div className="menu">
-                    <p>yo</p>
-                    <p>How are you</p>
-                    <p>Today?</p>
+                    <p>About</p>
+                    <p>Projects</p>
+                    <p>Contact</p>
                 </div>
             ) : null}
         </aside>

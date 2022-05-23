@@ -1,5 +1,5 @@
 .nav-container {
-    background-color: rgba(244, 117, 117, 0.9);
+    background-color: rgba(162, 117, 117, 0.9);
 }
 .menuIcon {
     background: transparent;
@@ -8,8 +8,10 @@
     -webkit-overflow-scrolling: touch;
     width: 3rem;
     height: 1.6rem;
-    margin-top: 1.5rem;
-    margin-left: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 .menu {
+    width: 30%;
+    height: 100vh;
 }

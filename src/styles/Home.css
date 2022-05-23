@@ -1,18 +1,29 @@
 .home {
-    background-image: radial-gradient(
-        56.25% 56.25% at 50% 50%,
-        #252525 0,
-        #181818 100%
+    background-image: linear-gradient(
+        310deg,
+        hsl(231deg 64% 40%) 0%,
+        hsl(231deg 62% 45%) 20%,
+        hsl(231deg 61% 50%) 29%,
+        hsl(230deg 71% 54%) 36%,
+        hsl(230deg 83% 58%) 43%,
+        hsl(230deg 96% 62%) 50%,
+        hsl(230deg 83% 58%) 57%,
+        hsl(230deg 71% 54%) 64%,
+        hsl(231deg 61% 50%) 71%,
+        hsl(231deg 62% 45%) 80%,
+        hsl(231deg 64% 40%) 100%
     );
-    min-height: 100vh;
+
+    /* min-height: 100vh; */
 }
 .logo_container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     text-align: center;
     min-height: 100vh;
+    padding-top: 5rem;
 }
 .logo {
     width: 20rem;
@@ -20,43 +31,31 @@
 }
 .reza {
     color: rgb(255 255 255);
-    font-family: "Red Hat Display", sans-serif;
-    font-size: 3rem;
-    letter-spacing: 0.5rem;
+    font-family: "Tangerine", cursive;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+
+    margin-top: -2rem;
 }
 .Fullstack {
     color: rgb(255 255 255);
     font-weight: 300;
     line-height: 2rem;
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
 }
 
 .btn_container {
+    min-width: 25%;
+    margin-top: 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding-top: 3rem;
 }
 
+.projects_btn,
 .about_btn {
     color: aliceblue;
-    background-color: rgb(40 175 176);
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    border: none;
-    border-radius: 1.5rem;
-    line-height: 1.5rem;
-    cursor: pointer;
-    font-family: "Red Hat Display", sans-serif;
-    font-size: 1rem;
-    letter-spacing: 0.2rem;
-    border: 0 solid #e5e7eb;
-}
-
-.projects_btn {
-    color: aliceblue;
-    /* background-color: rgb(40 175 176); */
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     padding-left: 1.5rem;
@@ -70,6 +69,12 @@
     letter-spacing: 0.2rem;
     border: 0 solid #e5e7eb;
     border-width: 2px;
-    border-color: rgb(40 175 176);
+    border-color: rgb(165, 222, 242);
     background-color: rgba(40, 176, 176, 0.014);
+}
+
+.projects_btn:hover,
+.about_btn:hover {
+    background-color: rgb(165, 222, 242);
+    color: rgb(17, 23, 27);
 }
