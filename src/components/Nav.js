@@ -7,21 +7,33 @@ function Nav() {
     const toggleMenu = () => {
         setOpenMenu(!openMenu);
     };
+
     return (
         <aside className="nav-container">
             <img
                 src={menuIcon}
-                alt="menu"
+                alt="menuIcon"
                 className="menuIcon"
                 onClick={toggleMenu}
             />
 
             {openMenu ? (
-                <div className="menu">
-                    <p>About</p>
-                    <p>Projects</p>
-                    <p>Contact</p>
-                </div>
+                <nav className="nav open">
+                    <ul>
+                        <li>
+                            <a href="/">HOME</a>
+                        </li>
+                        <li>
+                            <a href="/about">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="/projects">PROJECTS</a>
+                        </li>
+                        <li>
+                            <a href="/contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </nav>
             ) : null}
         </aside>
     );

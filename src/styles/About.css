@@ -1,5 +1,42 @@
-.about {
-    width: 100vw;
+.about-container {
     height: 100vh;
-    background-color: rgb(40 175 176);
+    background-color: cornflowerblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    width: 96vw;
+    /* background-color: rgb(164, 241, 156); */
+    text-align: center;
+}
+.content {
+    width: 96vw;
+    height: 80vh;
+    /* background-color: rgb(60, 54, 174); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 50vw;
+    right: 50px;
+    /* background-color: bisque; */
+    font-size: 22px;
+    line-height: 2.5rem;
+    text-align: justify;
+}
+.right {
+    width: 40vw;
+    height: 70vh;
+    background-color: rgb(83, 53, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reza {
+    width: 50%;
 }
