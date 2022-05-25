@@ -2,4 +2,40 @@
     height: 100vh;
     background-color: rgb(70, 93, 239);
     /* background-color: rgb(135, 156, 225); */
+    width: 100vw;
+}
+
+.contactMe {
+    margin-top: 7rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input,
+.textarea,
+.submit {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    width: 35%;
+}
+
+.submit {
+    border: 0 solid rgb(165, 222, 242);
+    background-color: rgb(165, 222, 242);
+}
+
+.logo-container {
+    margin: auto;
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+.logo3 {
+    width: 60px;
 }

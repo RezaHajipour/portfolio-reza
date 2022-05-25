@@ -1,42 +1,60 @@
 .about-container {
     height: 100vh;
     background-color: cornflowerblue;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .title {
-    width: 96vw;
-    /* background-color: rgb(164, 241, 156); */
+    font-size: 40px;
     text-align: center;
+    /* color: rgb(32, 42, 46); */
+    color: rgb(165, 222, 242);
+    letter-spacing: 0.5rem;
+    line-height: 4rem;
 }
-.content {
+.content-container {
     width: 96vw;
     height: 80vh;
-    /* background-color: rgb(60, 54, 174); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left {
+    width: 30vw;
+    height: 85vh;
+    background-color: rgba(78, 115, 238);
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.left {
-    width: 50vw;
-    right: 50px;
-    /* background-color: bisque; */
-    font-size: 22px;
-    line-height: 2.5rem;
-    text-align: justify;
+    flex-direction: column;
+    padding: 1rem;
+    color: rgb(16, 20, 21);
 }
 .right {
-    width: 40vw;
-    height: 70vh;
-    background-color: rgb(83, 53, 16);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 50vw;
+    right: 50px;
+    font-size: 20px;
+    line-height: 2.2rem;
+    text-align: justify;
+    color: rgb(16, 20, 21);
 }
+
 .reza {
     width: 50%;
+    border-radius: 9999px;
+    border: 5px solid rgb(165, 222, 242);
+}
+
+.skill {
+    font-size: 20px;
+    color: rgb(165, 222, 242);
+    line-height: 2.5rem;
+}
+
+.content {
+    font-size: 18px;
+    line-height: 1.9rem;
+    text-align: justify;
 }
