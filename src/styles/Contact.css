@@ -7,6 +7,7 @@
 
 .contactMe {
     margin-top: 7rem;
+    margin-bottom: 2rem;
 }
 
 .form {
@@ -15,17 +16,33 @@
     align-items: center;
     flex-direction: column;
 }
-.input,
+.label {
+    color: aliceblue;
+}
+.name,
+.email,
 .textarea,
-.submit {
-    margin-top: 2rem;
+.submit-btn {
+    margin-bottom: 1.5rem;
     padding: 0.5rem;
     width: 35%;
+    color: #000;
 }
 
-.submit {
+.textarea {
+    height: 100px;
+}
+.name:focus,
+.email:focus,
+.textarea:focus {
+    color: rgb(68, 0, 255);
+    outline-color: #1d74de;
+    background-color: #fafafa;
+}
+.submit-btn {
     border: 0 solid rgb(165, 222, 242);
     background-color: rgb(165, 222, 242);
+    cursor: pointer;
 }
 
 .logo-container {

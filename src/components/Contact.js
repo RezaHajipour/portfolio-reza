@@ -9,10 +9,25 @@ function Contact() {
         <div className="contact">
             <form type="submit" className="form">
                 <h1 className="title contactMe">CONTACT ME</h1>
-                <input type="text" id="name" name="name" className="input" />
-                <input type="email" id="email" name="email" className="input" />
+                <label for="Name" className="label">
+                    NAME
+                </label>
+
+                <input type="text" id="name" name="name" className="name" />
+
+                <label for="email" className="label">
+                    EMAIL
+                </label>
+
+                <input type="email" id="email" name="email" className="email" />
+
+                <label for="message" className="label">
+                    MESSAGE
+                </label>
+
                 <textarea className="textarea" />
-                <button className="submit">SEND MESSAGE</button>
+
+                <button className="submit-btn">SEND MESSAGE</button>
             </form>
             <article className="logo-container">
                 <a href="https://www.linkedin.com/in/rezahajipour/">
