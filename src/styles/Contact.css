@@ -1,13 +1,13 @@
 .contact {
+    width: 100vw;
     height: 100vh;
     background-color: rgb(70, 93, 239);
-    /* background-color: rgb(135, 156, 225); */
-    width: 100vw;
 }
 
-.contactMe {
+.contact-title {
     margin-top: 7rem;
     margin-bottom: 2rem;
+    color: #1c1c1c;
 }
 
 .form {

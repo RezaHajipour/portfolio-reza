@@ -1,106 +1,27 @@
 .projects-container {
-    height: 100vh;
-    background-color: rgba(78, 115, 238);
+    /* background-color: rgba(78, 115, 238); */
+    background-color: #a0b3c1;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.project-title {
+    font-size: 40px;
+    color: #2f5d8c;
+    letter-spacing: 0.5rem;
+    line-height: 8rem;
 }
 
-.container {
+.CardContainer {
     width: 80vw;
     margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+    row-gap: 30px;
 }
-
-.heading {
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 50px;
-    padding-top: 50px;
-    font-size: 40px;
-    text-align: center;
-    color: rgb(165, 222, 242);
-    letter-spacing: 0.5rem;
-    line-height: 4rem;
-}
-
 .row {
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
-}
-
-.card {
-    width: 20rem;
-    background: #fff;
-    border: 1px solid #ccc;
-    margin-bottom: 50px;
-    transition: 0.3s;
-    border-radius: 10px 10px 10px 10px;
-}
-
-.card-header {
-    padding: 50px 10px 120px 20px;
-    border-radius: 10px 10px 0 0;
-    background-image: url("../images/portfolio.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.card-body {
-    padding: 5px 12px 15px;
-    text-align: left;
-    font-size: 16px;
-}
-
-.buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.github-btn,
-.visit-btn {
-    width: rem;
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    background: #a5ddf2;
-    text-decoration: none;
-    margin-top: 30px;
-    padding: 2px 5px;
-    transition: 0.3s;
-    border-radius: 7px;
-}
-
-.click-icon {
-    width: 30px;
-}
-.card-body .btn:hover {
-    transform: scale(1.1);
-}
-
-.card:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-}
-
-/* Responsive media queries */
-
-@media screen and (max-width: 1000px) {
-    .card {
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 620px) {
-    .container {
-        width: 100%;
-    }
-
-    .heading {
-        padding: 20px;
-        font-size: 30px;
-    }
-
-    .card {
-        width: 80%;
-    }
 }

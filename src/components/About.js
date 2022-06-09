@@ -4,7 +4,7 @@ import reza from "../images/rezaHajipour.png";
 function About() {
     return (
         <div className="about-container">
-            <h1 className="title">ABOUT ME</h1>
+            <h1 className="aboutTitle">ABOUT ME</h1>
             <div className="content-container">
                 <div className="left">
                     <img src={reza} alt="Reza-Hajipour-img" className="reza" />

@@ -2,13 +2,12 @@ import "../styles/Contact.css";
 import github from "../images/github.png";
 import instagram from "../images/instagram.png";
 import linkedin from "../images/linkedin.png";
-import { BrowserRouter as Router, Link } from "react-router-dom";
 
 function Contact() {
     return (
         <div className="contact">
             <form type="submit" className="form">
-                <h1 className="title contactMe">CONTACT ME</h1>
+                <h1 className="contact-title">CONTACT ME</h1>
                 <label for="Name" className="label">
                     NAME
                 </label>
