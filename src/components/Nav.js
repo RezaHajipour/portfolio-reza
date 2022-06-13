@@ -1,6 +1,7 @@
 import "../styles/Nav.css";
 import React, { useState } from "react";
 import menuIcon from "../images/burgerMenu.png";
+import { Link } from "react-router-dom";
 
 function Nav() {
     const [openMenu, setOpenMenu] = useState(false);
@@ -21,16 +22,24 @@ function Nav() {
                 <nav className="nav open">
                     <ul>
                         <li>
-                            <a href="/">HOME</a>
+                            <Link to="/">
+                                <p>HOME</p>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/about">ABOUT</a>
+                            <Link to="/about">
+                                <p>ABOUT</p>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/projects">PROJECTS</a>
+                            <Link to="/projects">
+                                <p>PROJECTS</p>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/contact">CONTACT</a>
+                            <Link to="/contact">
+                                <p>CONTACT</p>
+                            </Link>
                         </li>
                     </ul>
                 </nav>
