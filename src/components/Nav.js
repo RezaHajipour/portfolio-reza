@@ -1,7 +1,7 @@
 import "../styles/Nav.css";
 import React, { useState } from "react";
 import menuIcon from "../images/burgerMenu.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
     const [openMenu, setOpenMenu] = useState(false);
@@ -22,24 +22,24 @@ function Nav() {
                 <nav className="nav open">
                     <ul>
                         <li>
-                            <Link to="/">
+                            <NavLink to="/">
                                 <p>HOME</p>
-                            </Link>
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/about">
+                            <NavLink to="/about">
                                 <p>ABOUT</p>
-                            </Link>
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/projects">
+                            <NavLink to="/projects">
                                 <p>PROJECTS</p>
-                            </Link>
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/contact">
+                            <NavLink to="/contact">
                                 <p>CONTACT</p>
-                            </Link>
+                            </NavLink>
                         </li>
                     </ul>
                 </nav>
