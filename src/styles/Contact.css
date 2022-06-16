@@ -56,3 +56,33 @@
 .logo3 {
     width: 60px;
 }
+
+/* -----------Media Query Iphone --------- */
+@media (max-width: 480px) {
+    .contact-title {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        font-size: 20px;
+    }
+
+    .label {
+        font-size: 12px;
+    }
+    .name,
+    .email,
+    .textarea,
+    .submit-btn {
+        margin-bottom: 1.5rem;
+        padding: 0.5rem;
+        width: 55%;
+        margin-left: 1rem;
+        font-size: 12px;
+    }
+    .logo-container {
+        width: 30%;
+        padding-top: 1.5rem;
+    }
+    .logo3 {
+        width: 30px;
+    }
+}

@@ -25,3 +25,13 @@
     justify-content: space-around;
     flex-flow: wrap;
 }
+
+/* -----------Media Query Iphone --------- */
+@media (max-width: 480px) {
+    .project-title {
+        font-size: 20px;
+
+        margin-left: 2rem;
+        line-height: 6rem;
+    }
+}

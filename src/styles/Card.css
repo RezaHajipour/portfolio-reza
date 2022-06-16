@@ -48,6 +48,7 @@
 
 .card-stack {
     /* text-transform: uppercase; */
+    font-size: 14px;
     color: #2f5d8c;
     margin: auto;
     align-items: flex-end;
@@ -107,5 +108,45 @@
 
     .card {
         width: 80%;
+    }
+}
+
+/* -----------Media Query Iphone --------- */
+@media (max-width: 480px) {
+    .card {
+        min-width: 235px;
+        max-width: 235px;
+        height: 280px;
+    }
+    .card-image img {
+        width: 235px;
+        height: 110px;
+    }
+    .card-body {
+        padding: 5px 12px 15px;
+        min-height: 95px;
+        max-height: 95px;
+    }
+    .card-title {
+        font-size: 12px;
+        margin-bottom: 0.2rem;
+    }
+    .card-description {
+        font-size: 12px;
+    }
+    .card-stack {
+        font-size: 12px;
+    }
+    .cardIcon {
+        width: 18px;
+    }
+    .cardBtn {
+        min-width: 95px;
+        max-width: 95px;
+
+        text-decoration: none;
+        margin-top: 30px;
+        padding: 4px 5px;
+        border-radius: 7px;
     }
 }

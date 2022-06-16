@@ -75,6 +75,7 @@ function Projects({ imageUrl, title, description, stack, webpage, github }) {
                                 stack={work.stack}
                                 webpage={work.webpage}
                                 github={work.github}
+                                className="cards"
                             />
                         </div>
                     );

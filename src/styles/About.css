@@ -63,28 +63,32 @@
 /* -----------Media Query Iphone --------- */
 @media (max-width: 480px) {
     .about-container {
-        height: 100vh;
+        height: 100%;
     }
     .aboutTitle {
         font-size: 20px;
-        letter-spacing: 0.2rem;
+        margin-top: 0.9rem;
+        margin-left: 2rem;
     }
     .content-container {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 100vw;
+        width: 100%;
+        height: 100%;
         font-size: 10px;
-        margin-top: 2.5rem;
     }
     .left {
-        width: 63vw;
-        padding: 0.2rem;
+        width: 70vw;
+        padding: 0.5rem;
+        margin-left: 2rem;
         font-size: 10px;
+        height: auto;
     }
     .reza {
         width: 25%;
+        margin-top: 0.5rem;
     }
     .content {
         font-size: 12px;
@@ -100,5 +104,6 @@
         font-size: 12px;
         line-height: 1.4rem;
         margin-top: 1rem;
+        margin-left: 2rem;
     }
 }
