@@ -77,3 +77,40 @@
     background-color: rgb(165, 222, 242);
     color: rgb(17, 23, 27);
 }
+
+/* -----------Media Query Iphone --------- */
+@media (max-width: 480px) {
+    .logo-reza {
+        width: 12rem;
+        height: 12rem;
+        margin-top: 1rem;
+    }
+    .hajipour {
+        font-size: 3rem;
+        margin-top: 0;
+    }
+    .Fullstack {
+        font-size: 1rem;
+        line-height: 1rem;
+        margin-top: 2rem;
+    }
+    .btn_container {
+        min-width: 40%;
+        margin-top: 3rem;
+    }
+    .projects_btn,
+    .about_btn {
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        border-radius: 0.5rem;
+        line-height: 0.5rem;
+        font-size: 0.9rem;
+        letter-spacing: 0;
+        border-width: 1px;
+    }
+    .projects_btn {
+        margin-left: 1rem;
+    }
+}

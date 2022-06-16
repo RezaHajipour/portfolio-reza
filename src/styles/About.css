@@ -1,44 +1,36 @@
 .about-container {
-    height: 100vh;
-    background-color: #d8d8d6;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
+    background-color: #d8d8d6;
 }
 .aboutTitle {
-    font-size: 40px;
     text-align: center;
-    color: #2f5d8c;
+    font-size: 40px;
     letter-spacing: 0.5rem;
     line-height: 4rem;
+    color: #2f5d8c;
 }
 .content-container {
-    width: 96vw;
-    height: 80vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 96vw;
+    height: 80vh;
 }
 .left {
-    width: 30vw;
-    height: 85vh;
-    background-color: #a0b3c1;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 30vw;
+    height: 85vh;
     padding: 1rem;
+    background-color: #a0b3c1;
     color: rgb(16, 20, 21);
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.1);
-}
-.right {
-    width: 50vw;
-    right: 50px;
-    font-size: 20px;
-    line-height: 2.2rem;
-    text-align: justify;
-    color: rgb(16, 20, 21);
 }
 
 .reza {
@@ -57,4 +49,56 @@
     font-size: 18px;
     line-height: 1.9rem;
     text-align: justify;
+}
+
+.right {
+    width: 50vw;
+    right: 50px;
+    font-size: 20px;
+    line-height: 2.2rem;
+    text-align: justify;
+    color: rgb(16, 20, 21);
+}
+
+/* -----------Media Query Iphone --------- */
+@media (max-width: 480px) {
+    .about-container {
+        height: 100vh;
+    }
+    .aboutTitle {
+        font-size: 20px;
+        letter-spacing: 0.2rem;
+    }
+    .content-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        font-size: 10px;
+        margin-top: 2.5rem;
+    }
+    .left {
+        width: 63vw;
+        padding: 0.2rem;
+        font-size: 10px;
+    }
+    .reza {
+        width: 25%;
+    }
+    .content {
+        font-size: 12px;
+        line-height: 1rem;
+    }
+    .skill {
+        font-size: 12px;
+        line-height: 1.5rem;
+    }
+
+    .right {
+        width: 63vw;
+        font-size: 12px;
+        line-height: 1.4rem;
+        margin-top: 1rem;
+    }
 }

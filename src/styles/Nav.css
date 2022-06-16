@@ -13,7 +13,6 @@
     position: fixed;
     top: 5rem;
     left: 1rem;
-
     height: 100vh;
     text-align: center;
 }
@@ -30,13 +29,34 @@
     font-size: 20px;
 }
 
-ul {
+.nav ul {
     list-style-type: none;
     line-height: 3em;
 }
 
-li {
+.nav li {
     writing-mode: vertical-lr;
     padding: 1rem;
     letter-spacing: 0.2rem;
+}
+
+/* -----------Media Query Iphone --------- */
+@media (max-width: 480px) {
+    .menuIcon {
+        width: 2rem;
+        height: 1.6rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .nav {
+        font-size: 12px;
+        top: 3.3rem;
+        left: 1.3rem;
+    }
+    .nav a:hover {
+        font-size: 10px;
+    }
+    .nav ul {
+        line-height: 1.5em;
+    }
 }
