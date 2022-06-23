@@ -9,8 +9,11 @@
 /* -------------------------Media Query Iphone ---------------------- */
 
 @media (max-width: 480px) {
+    .footer {
+        height: 1.5rem;
+    }
     .copyright {
-        font-size: 8px;
+        font-size: 12px;
         color: rgb(6, 67, 122);
     }
 }
