@@ -1,6 +1,16 @@
 .footer {
     width: 100%;
     background-color: #d8d8d6;
-    display: block;
+    /* display: block; */
     text-align: center;
+    color: rgb(6, 67, 122);
+}
+
+/* -------------------------Media Query Iphone ---------------------- */
+
+@media (max-width: 480px) {
+    .copyright {
+        font-size: 8px;
+        color: rgb(6, 67, 122);
+    }
 }

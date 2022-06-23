@@ -1,9 +1,28 @@
 .about-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     background-color: #d8d8d6;
+    height: 100vh;
+}
+
+.aboutTitle1 {
+    /* text-align: left; */
+    font-size: 40px;
+    letter-spacing: 0.5rem;
+    line-height: 5rem;
+    color: #2f5d8c;
+    margin-bottom: 2rem;
+}
+.aboutTitle2 {
+    font-size: 22px;
+    color: #2f5d8c;
+    letter-spacing: 0.3rem;
+}
+.aboutTitle3 {
+    font-size: 18px;
+    color: #2f5d8c;
 }
 
 .content-container {
@@ -11,22 +30,6 @@
     justify-content: space-around;
     align-items: center;
     width: 96vw;
-    /* margin-top: 4rem; */
-}
-.aboutTitle1 {
-    text-align: left;
-    font-size: 40px;
-    letter-spacing: 0.5rem;
-    line-height: 4rem;
-    color: #2f5d8c;
-}
-.aboutTitle2 {
-    font-size: 28px;
-    color: #2f5d8c;
-}
-.aboutTitle3 {
-    font-size: 22px;
-    color: #2f5d8c;
 }
 
 .left {
@@ -34,10 +37,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 25vw;
-    margin-left: 2rem;
-    /* height: 85vh; */
-    /* margin-top: 2rem; */
+    width: 40vw;
+    height: auto;
+    margin-left: 4rem;
     padding: 1rem;
     background-color: #a0b3c1;
     color: rgb(16, 20, 21);
@@ -45,42 +47,52 @@
 }
 
 .reza {
-    width: 50%;
+    width: 35%;
     border-radius: 9999px;
     border: 5px solid #2f5d8c;
 }
 
 .skill {
-    font-size: 20px;
+    font-size: 18px;
     color: #2f5d8c;
     line-height: 2.5rem;
 }
 
 .content {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.9rem;
     text-align: justify;
 }
 
 .right {
-    width: 60vw;
-    right: 50px;
-    font-size: 20px;
-    line-height: 2.2rem;
+    width: 45vw;
+
+    font-size: 19px;
+    line-height: 1.6rem;
     text-align: justify;
     color: rgb(16, 20, 21);
-    margin-top: 5rem;
 }
 
-/* -----------Media Query Iphone --------- */
+/* -------------------------Media Query Iphone ---------------------- */
+
 @media (max-width: 480px) {
     .about-container {
         height: 100%;
+        /* padding-left: -1.5rem; */
     }
-    .aboutTitle {
+    .aboutTitle1 {
         font-size: 20px;
-        margin-top: 0.9rem;
-        margin-left: 2rem;
+        line-height: 5rem;
+        margin-bottom: -1.5rem;
+    }
+
+    .aboutTitle2 {
+        font-size: 12px;
+        letter-spacing: 0.08rem;
+    }
+    .aboutTitle3 {
+        font-size: 12px;
+        letter-spacing: 0.08rem;
     }
     .content-container {
         display: flex;
@@ -92,11 +104,12 @@
         font-size: 10px;
     }
     .left {
-        width: 70vw;
+        width: 75vw;
         padding: 0.5rem;
-        margin-left: 2rem;
         font-size: 10px;
         height: auto;
+        margin-top: 1rem;
+        margin-left: 2.5rem;
     }
     .reza {
         width: 25%;
@@ -113,10 +126,10 @@
     }
 
     .right {
-        width: 63vw;
+        width: 75vw;
         font-size: 12px;
-        line-height: 1.4rem;
+        line-height: 1rem;
         margin-top: 1rem;
-        margin-left: 2rem;
+        margin-left: 2.5rem;
     }
 }

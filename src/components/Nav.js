@@ -31,8 +31,8 @@ function Nav() {
                             </a>
                         </li>
                         <li>
-                            <a href="#projects">
-                                <p>PROJECTS</p>
+                            <a href="#work">
+                                <p>WORK</p>
                             </a>
                         </li>
                         <li>

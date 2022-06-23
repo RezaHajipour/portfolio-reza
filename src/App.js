@@ -2,17 +2,19 @@ import "./styles/App.css";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import About from "./components/About";
-import Projects from "./components/Projects";
+import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
     return (
         <div className="App">
+            <ScrollToTop />
             <Nav />
             <Home />
             <About />
-            <Projects />
+            <Work />
             <Contact />
             <Footer />
         </div>

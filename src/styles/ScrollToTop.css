@@ -1,0 +1,12 @@
+.topBtn {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(70, 93, 239);
+    color: rgb(70, 93, 239);
+    background-color: #fff;
+    cursor: pointer;
+}

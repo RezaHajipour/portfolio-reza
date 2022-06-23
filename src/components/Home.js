@@ -12,8 +12,8 @@ const Home = () => {
                     <a href="#about">
                         <button className="about_btn">ABOUT ME</button>
                     </a>
-                    <a href="#projects">
-                        <button className="projects_btn">PROJECTS</button>
+                    <a href="#work">
+                        <button className="work_btn">RECENT WORK</button>
                     </a>
                 </div>
             </div>

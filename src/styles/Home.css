@@ -52,7 +52,11 @@
     align-items: center;
 }
 
-.projects_btn,
+.work_btn {
+    margin-left: 1rem;
+}
+
+.work_btn,
 .about_btn {
     color: aliceblue;
     padding-top: 0.6rem;
@@ -72,7 +76,7 @@
     background-color: rgba(40, 176, 176, 0.014);
 }
 
-.projects_btn:hover,
+.work_btn:hover,
 .about_btn:hover {
     background-color: rgb(165, 222, 242);
     color: rgb(17, 23, 27);
@@ -98,7 +102,7 @@
         min-width: 40%;
         margin-top: 3rem;
     }
-    .projects_btn,
+    .work_btn,
     .about_btn {
         padding-top: 0.6rem;
         padding-bottom: 0.6rem;
@@ -110,7 +114,7 @@
         letter-spacing: 0;
         border-width: 1px;
     }
-    .projects_btn {
+    .work_btn {
         margin-left: 1rem;
     }
 }

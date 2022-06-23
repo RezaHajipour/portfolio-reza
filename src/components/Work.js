@@ -1,4 +1,4 @@
-import "../styles/Projects.css";
+import "../styles/Work.css";
 import Card from "./Card.js";
 
 const Projects = ({ imageUrl, title, description, stack, webpage, github }) => {
@@ -43,11 +43,9 @@ const Projects = ({ imageUrl, title, description, stack, webpage, github }) => {
         },
     ];
     return (
-        <section className="projects-container" id="projects">
-            <h1 className="project-title">Projects</h1>
-            <h4 className="project-subtitle">
-                This is an overview of my latest projects.
-            </h4>
+        <section className="work-container" id="work">
+            <h1 className="work-title">WORK</h1>
+            <h4 className="work-subtitle">Check out some of my recent work</h4>
             <div className="CardContainer">
                 {Works.map((work) => {
                     return (

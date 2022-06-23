@@ -29,7 +29,7 @@ function Contact() {
                     MESSAGE
                 </label>
 
-                <textarea className="textarea" />
+                <textarea className="textarea" name="message" />
 
                 <button className="submit-btn">SEND MESSAGE</button>
             </form>
