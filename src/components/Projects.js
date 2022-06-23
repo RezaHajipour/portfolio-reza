@@ -1,7 +1,7 @@
 import "../styles/Projects.css";
 import Card from "./Card.js";
 
-function Projects({ imageUrl, title, description, stack, webpage, github }) {
+const Projects = ({ imageUrl, title, description, stack, webpage, github }) => {
     const Works = [
         {
             id: 1,
@@ -43,8 +43,11 @@ function Projects({ imageUrl, title, description, stack, webpage, github }) {
         },
     ];
     return (
-        <section className="projects-container">
-            <h1 className="project-title">My Projects</h1>
+        <section className="projects-container" id="projects">
+            <h1 className="project-title">Projects</h1>
+            <h4 className="project-subtitle">
+                This is an overview of my latest projects.
+            </h4>
             <div className="CardContainer">
                 {Works.map((work) => {
                     return (
@@ -64,6 +67,6 @@ function Projects({ imageUrl, title, description, stack, webpage, github }) {
             </div>
         </section>
     );
-}
+};
 
 export default Projects;

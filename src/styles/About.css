@@ -3,30 +3,41 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
     background-color: #d8d8d6;
 }
-.aboutTitle {
-    text-align: center;
-    font-size: 40px;
-    letter-spacing: 0.5rem;
-    line-height: 4rem;
-    color: #2f5d8c;
-}
+
 .content-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 96vw;
-    height: 80vh;
+    /* margin-top: 4rem; */
 }
+.aboutTitle1 {
+    text-align: left;
+    font-size: 40px;
+    letter-spacing: 0.5rem;
+    line-height: 4rem;
+    color: #2f5d8c;
+}
+.aboutTitle2 {
+    font-size: 28px;
+    color: #2f5d8c;
+}
+.aboutTitle3 {
+    font-size: 22px;
+    color: #2f5d8c;
+}
+
 .left {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 30vw;
-    height: 85vh;
+    width: 25vw;
+    margin-left: 2rem;
+    /* height: 85vh; */
+    /* margin-top: 2rem; */
     padding: 1rem;
     background-color: #a0b3c1;
     color: rgb(16, 20, 21);
@@ -52,12 +63,13 @@
 }
 
 .right {
-    width: 50vw;
+    width: 60vw;
     right: 50px;
     font-size: 20px;
     line-height: 2.2rem;
     text-align: justify;
     color: rgb(16, 20, 21);
+    margin-top: 5rem;
 }
 
 /* -----------Media Query Iphone --------- */
@@ -75,7 +87,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         height: 100%;
         font-size: 10px;
     }

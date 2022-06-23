@@ -8,7 +8,13 @@
     font-size: 40px;
     color: #2f5d8c;
     letter-spacing: 0.5rem;
-    line-height: 8rem;
+    line-height: 4rem;
+}
+.project-subtitle {
+    font-size: 20px;
+    color: #2f5d8c;
+    letter-spacing: 0.18rem;
+    margin-bottom: 3rem;
 }
 
 .CardContainer {

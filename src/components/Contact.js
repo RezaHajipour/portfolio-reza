@@ -5,8 +5,13 @@ import linkedin from "../images/linkedin.png";
 
 function Contact() {
     return (
-        <div className="contact">
-            <form type="submit" className="form">
+        <div className="contact" id="contact">
+            <form
+                type="submit"
+                className="form"
+                method="post"
+                action="https://getform.io/f/d4cc779f-c34c-4c9c-a0dd-d2e5485c7534"
+            >
                 <h1 className="contact-title">CONTACT ME</h1>
                 <label for="Name" className="label">
                     NAME
