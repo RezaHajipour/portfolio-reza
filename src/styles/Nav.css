@@ -17,6 +17,10 @@
     text-align: center;
 }
 
+.navlink {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
 .nav a:link,
 .nav a:active,
 .nav a:visited {
