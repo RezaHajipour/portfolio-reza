@@ -41,6 +41,16 @@ const Projects = ({ imageUrl, title, description, stack, webpage, github }) => {
             webpage: "https://www.rezahajipour.com",
             github: "https://github.com/RezaHajipour/portfolio-reza",
         },
+        {
+            id: 5,
+            imageUrl: require("../images/panes.png"),
+            title: "Resizable Panes",
+            description:
+                "Lots of sites seem to have resizable panes these days. They're often used to show before and after photos with both images staying the same size as the user drags the bar to reveal more of one photo and less of the other.!",
+            stack: "html, css, JavaScript, jQuery",
+            webpage: "https://resizablepanes.netlify.app/",
+            github: "https://github.com/RezaHajipour/resizable-panes",
+        },
     ];
     return (
         <section className="work-container" id="work">
