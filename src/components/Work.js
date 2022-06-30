@@ -26,7 +26,7 @@ const Projects = ({ imageUrl, title, description, stack, webpage, github }) => {
         {
             id: 3,
             imageUrl: require("../images/autowerkstatt-hammerbrook.png"),
-            title: "Autowerkstatt Hammerbrook",
+            title: "Autowerkstatt",
             description: "A Statistic Website for Auto repair.",
             stack: "html, css, JavaScript, Material UI",
             webpage: "https://autowerkstatt-hammerbrook.netlify.app/",
