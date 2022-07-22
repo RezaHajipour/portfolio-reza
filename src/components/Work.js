@@ -63,7 +63,7 @@ const Projects = ({ imageUrl, title, description, stack, webpage, github }) => {
         },
         {
             id: 6,
-            imageUrl: require("../images/todo2.png"),
+            imageUrl: require("../images/todo-list.png"),
             title: "todo list",
             description: "a simple tdo list.",
             stack: "html, css, JavaScript",
