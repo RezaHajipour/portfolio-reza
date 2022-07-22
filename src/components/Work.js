@@ -61,6 +61,15 @@ const Projects = ({ imageUrl, title, description, stack, webpage, github }) => {
             webpage: "https://resizablepanes.netlify.app/",
             github: "https://github.com/RezaHajipour/resizable-panes",
         },
+        {
+            id: 6,
+            imageUrl: require("../images/todo2.png"),
+            title: "todo list",
+            description: "a simple tdo list.",
+            stack: "html, css, JavaScript",
+            webpage: "https://to-do-reza.netlify.app/",
+            github: "https://github.com/RezaHajipour/to-do-list",
+        },
     ];
     return (
         <section className="work-container" id="work">
