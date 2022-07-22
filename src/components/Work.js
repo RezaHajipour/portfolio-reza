@@ -5,6 +5,26 @@ const Projects = ({ imageUrl, title, description, stack, webpage, github }) => {
     const Works = [
         {
             id: 1,
+            imageUrl: require("../images/crewconnector.png"),
+            title: "Crew Connector",
+            description:
+                "a web App to connect film crews. User can register himself as a film crew or search other crews by name, city, title or category.",
+            stack: "html, css, JavaScript, Postgres, Express, Node.js",
+            webpage: "https://crewconnector.herokuapp.com/",
+            github: "https://github.com/RezaHajipour/final_project",
+        },
+        {
+            id: 2,
+            imageUrl: require("../images/socialnetwork.png"),
+            title: "SocialNetwork",
+            description:
+                "A social network app on which users can sign up, say a little about themselves, and become friends with other users and also chat with other users.",
+            stack: "JavaScript, html, css, Postgres, node.js, express, socket.io",
+            webpage: "https://we-web.herokuapp.com/login",
+            github: "https://github.com/RezaHajipour/socialNetwork",
+        },
+        {
+            id: 3,
             imageUrl: require("../images/taxi-tmu.png"),
             title: "TAXI TMU",
             description:
@@ -14,22 +34,12 @@ const Projects = ({ imageUrl, title, description, stack, webpage, github }) => {
             github: "https://github.com/taxi-TMU",
         },
         {
-            id: 2,
-            imageUrl: require("../images/crewconnector.png"),
-            title: "Crew Connector",
-            description:
-                "an App to connect film crews. User can register himself as a film crew or search other crews by name, city, title or category.",
-            stack: "html, css, JavaScript, Postgres, Express, Node.js",
-            webpage: "https://crewconnector.herokuapp.com/",
-            github: "https://github.com/RezaHajipour/final_project",
-        },
-        {
             id: 3,
             imageUrl: require("../images/autowerkstatt-hammerbrook.png"),
             title: "Autowerkstatt",
             description: "A Statistic Website for Auto repair.",
             stack: "html, css, JavaScript, Material UI",
-            webpage: "https://autowerkstatt-hammerbrook.netlify.app/",
+            webpage: "https://autowerkstatt-hammerbrook.com/",
             github: "https://github.com/RezaHajipour/werkstatt",
         },
         {

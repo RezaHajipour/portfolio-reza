@@ -1,5 +1,5 @@
 import "../styles/About.css";
-import reza from "../images/rezaHajipour.png";
+import reza from "../images/reza2.png";
 
 const About = () => {
     return (
@@ -13,20 +13,20 @@ const About = () => {
                     <span className="aboutTitle2">Reza Hajipour</span>
                     <p className="aboutTitle3">Full stack developer</p>
                     <br />
-                    <h4 className="skill">Coding Skills: </h4>
-                    <p className="content">
+                    <h4 className="skills">Coding Skills: </h4>
+                    <p className="codingSkills">
                         HTML5, CSS, Bootstrap, Material-UI, JavaScript, jQuery,
                         Node.js, Express, React, Vue.js, Express-Handlebars,
                         Git, GitHub, SQL databases with PostgreSQL and NoSQL,
                         Jest, SuperTest and React Testing Library·
                     </p>
-                    <h4 className="skill">Other Skills:</h4>
-                    <p className="content">
+                    <h4 className="skills">Other Skills:</h4>
+                    <p className="otherSkills">
                         Adobe Photoshop, Figma, Scrum, Agile Methodologies,
                         Video Production, Final Cut, Adobe Premiere
                     </p>
-                    <h4 className="skill">Languages:</h4>
-                    <p className="content">
+                    <h4 className="skills">Languages:</h4>
+                    <p className="languages">
                         English, German, Portuguese, Persian
                     </p>
                 </div>
